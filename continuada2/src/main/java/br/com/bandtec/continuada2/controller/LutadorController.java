@@ -91,7 +91,7 @@ public class LutadorController {
                 lutadorApanha.setVida(novaVida);
                 repository.save(lutadorApanha);
                 List<Lutador> lista = new ArrayList<>();
-                ;
+                lutadorApanha.verificarVida();
                 lista.add(lutadorBate);
                 lista.add(lutadorApanha);
 
